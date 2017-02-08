@@ -5,7 +5,7 @@
 # git 1.9.1
 # Python 2.7
 # Django 1.10.5
-############################
+#############################
 
 FROM ubuntu:14.04
 MAINTAINER Giorgos Argyriou <gioargyr@gmail.com>
