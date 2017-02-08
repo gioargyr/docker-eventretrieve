@@ -22,10 +22,10 @@ RUN apt-get update \
 
 RUN pip install django \
  && mkdir /input \
- && git clone https://github.com/gioargyr/EventRetrieve.git
+ && git clone https://github.com/dimitrianos/BigDataEurope-EventDetectionService.git
 
 EXPOSE 8000
 
-WORKDIR /EventRetrieve
+WORKDIR /BigDataEurope-EventDetectionService
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
